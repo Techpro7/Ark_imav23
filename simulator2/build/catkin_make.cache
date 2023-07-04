@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/pranjal/simulator2/devel -DCMAKE_INSTALL_PREFIX=/home/pranjal/simulator2/install -G Unix Makefiles

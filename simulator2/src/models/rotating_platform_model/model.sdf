@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <model name="rotating_platform">
+   
+    <link name="platform_link">
+      <inertial>
+        <mass>0.25</mass>
+        <inertia>
+          <ixx>0.1</ixx>
+          <iyy>0.1</iyy>
+          <izz>0.1</izz>
+        </inertia>
+      </inertial>
+      <collision name="platform_collision">
+        <!-- Define collision properties -->
+        <geometry>
+          <box>
+            <size>1 0.5 0.1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="platform_visual">
+        <!-- Define visual properties -->
+        <geometry>
+          <box>
+            <size>1 0.5 0.1</size>
+          </box>
+        </geometry>
+      </visual>
+    </link>
+
+    <joint name="rotation_joint" type="continuous">
+      <child>platform_link</child>
+      <parent>world</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+      </axis>
+      <dynamics>
+        <damping>0.1</damping>
+        <friction>0.05</friction>
+      </dynamics>
+
+      <motor>
+        <force>
+            <torque>
+                <limit>
+                    <lower>-10</lower>
+                    <upper>10</upper>
+                </limit>
+            </torque>
+        </force>
+        <velocity>
+            <target>0.174533</target>
+            <pid>
+                <p>100.0</p>
+                <i>0.2</i>
+                <d>0.2</d>
+                <imax>1.0</imax>
+                <imin>-1.0</imin>
+            </pid>
+            <limit>
+                <lower>-10.0</lower>
+                <upper>10.0</upper>
+                <effort>10.0</effort>
+            </limit>
+        </velocity>
+      </motor>
+      
+    </joint>
+  </model>
+</sdf>

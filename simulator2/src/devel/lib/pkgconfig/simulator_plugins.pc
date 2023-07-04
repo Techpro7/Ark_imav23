@@ -1,0 +1,8 @@
+prefix=/home/pranjal/simulator2/src/devel
+
+Name: simulator_plugins
+Description: Description of simulator_plugins
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

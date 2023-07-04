@@ -1,0 +1,3 @@
+/home/pranjal/simulator2/src/simulator_plugins/src/build/CMakeFiles/rebuild_cache.dir
+/home/pranjal/simulator2/src/simulator_plugins/src/build/CMakeFiles/edit_cache.dir
+/home/pranjal/simulator2/src/simulator_plugins/src/build/CMakeFiles/rotation_controller.dir

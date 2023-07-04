@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <world name="rotating_platform_sim">
+    <physics type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+      <gravity>0 0 -9.81</gravity>
+      <ode>
+        <solver>
+          <type>quick</type>
+          <iters>50</iters>
+          <sor>1.2</sor>
+        </solver>
+        <constraints>
+          <cfm>0</cfm>
+          <erp>0.2</erp>
+          <contact_max_correcting_vel>0.2</contact_max_correcting_vel>
+          <contact_surface_layer>0.001</contact_surface_layer>
+        </constraints>
+      </ode>
+    </physics>
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <world name="rotating_platform_sim">
+    <physics type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+      <gravity>0 0 -9.81</gravity>
+      <ode>
+        <solver>
+          <type>quick</type>
+          <iters>50</iters>
+          <sor>1.2</sor>
+        </solver>
+        <constraints>
+          <cfm>0</cfm>
+          <erp>0.2</erp>
+          <contact_max_correcting_vel>0.2</contact_max_correcting_vel>
+          <contact_surface_layer>0.001</contact_surface_layer>
+        </constraints>
+      </ode>
+    </physics>
+
+    <include>
+      <uri>file:///home/pranjal/rotorS/src/Ark_imav23/Gazebo/rotating_platform_model</uri>
+      <pose>0 0 0 0 0 0</pose>
+      <plugin name="rotation_controller" filename="/home/pranjal/simulator2/src/simulator_plugins/src/build/librotation_controller.so">
+
+      </plugin>
+      <!-- <plugin name="gazebo_plugin" filename="/home/pranjal/simulator2/src/simulator_plugins/src/gazebo_plugin.py">
+      
+      </plugin> -->
+    </include>
+
+    <!-- Add other models and entities to the world as needed -->
+  </world>
+</sdf>
+
+    <include>
+      <uri>file:///home/pranjal/rotorS/src/Ark_imav23/Gazebo/rotating_platform_model</uri>
+      <pose>0 0 0 0 0 0</pose>
+      <plugin name="rotation_controller" filename="/home/pranjal/simulator2/src/simulator_plugins/src/build/librotation_controller.so">
+
+      </plugin>
+      <!-- <plugin name="gazebo_plugin" filename="/home/pranjal/simulator2/src/simulator_plugins/src/gazebo_plugin.py">
+      
+      </plugin> -->
+    </include>
+
+    <!-- Add other models and entities to the world as needed -->
+  </world>
+</sdf>
