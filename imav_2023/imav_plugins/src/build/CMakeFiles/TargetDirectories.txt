@@ -1,0 +1,3 @@
+/home/shriram/catkin_ws/src/imav_2023/imav_plugins/src/build/CMakeFiles/rebuild_cache.dir
+/home/shriram/catkin_ws/src/imav_2023/imav_plugins/src/build/CMakeFiles/edit_cache.dir
+/home/shriram/catkin_ws/src/imav_2023/imav_plugins/src/build/CMakeFiles/rotation_controller.dir

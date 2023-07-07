@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>imav_2023</name>
+  <version>0.0.0</version>
+  <description>The imav_2023 package</description>
+  <maintainer email="shriram@todo.todo">shriram</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>gazebo_ros</build_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>gazebo_ros</run_depend>
+  <run_depend>roscpp</run_depend>
+
+  <export>
+    <gazebo_ros plugin_path="${prefix}/lib" gazebo_media_path="${prefix}" />
+  </export>
+
+</package>
