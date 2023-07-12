@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros_imav_2023</name>
+  <version>0.0.1</version>
+  <description>ROS Noetic package for imav_2023</description>
+  <maintainer email="shriram@todo.todo">shriram</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>gazebo_ros</build_depend>
+  <build_depend>roscpp</build_depend>
+  
+  <build_export_depend>gazebo_ros</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+
+
+</package>

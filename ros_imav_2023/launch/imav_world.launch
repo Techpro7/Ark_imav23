@@ -1,0 +1,9 @@
+<launch>
+  <!-- Export the GAZEBO_MODEL_PATH -->
+  <env name="GAZEBO_MODEL_PATH" value="$(find ros_imav_2023)/models:${GAZEBO_MODEL_PATH}"/>
+  <env name="GAZEBO_PLUGIN_PATH" value="$(find ros_imav_2023)/lib:${GAZEBO_PLUGIN_PATH}"/>
+  <env name="GAZEBO_CONSOLE_OUTPUT" value="1"/>
+
+  <!-- Start Gazebo -->
+  <node name="gazebo" pkg="gazebo_ros" type="gazebo" args="$(find ros_imav_2023)/worlds/imav_world.world --verbose"/>
+</launch>
