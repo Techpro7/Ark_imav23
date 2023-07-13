@@ -10,6 +10,9 @@ add_definitions(-std=c++11)
 find_package(catkin REQUIRED COMPONENTS 
   roscpp 
   gazebo_ros 
+  geometry_msgs
+  mav_msgs
+  sensor_msgs
 )
 
 # Depend on system install of Gazebo
@@ -19,7 +22,15 @@ catkin_package(
   DEPENDS 
     roscpp 
     gazebo_ros 
+        
+    geometry_msgs
+    mav_msgs
+    sensor_msgs
 )
 
 link_directories(${GAZEBO_LIBRARY_DIRS})
 include_directories(${Boost_INCLUDE_DIR} ${catkin_INCLUDE_DIRS} ${GAZEBO_INCLUDE_DIRS})
+
+add_executable(hovering_imav_example src/hovering_imav_example.cpp)
+target_link_libraries(hovering_imav_example ${catkin_LIBRARIES})
+add_dependencies(hovering_imav_example ${catkin_EXPORTED_TARGETS})
