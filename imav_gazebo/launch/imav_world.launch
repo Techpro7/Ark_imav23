@@ -1,0 +1,8 @@
+<launch>
+  <!-- Export the GAZEBO_MODEL_PATH -->
+  <env name="GAZEBO_MODEL_PATH" value="$(find imav_gazebo)/models:${GAZEBO_MODEL_PATH}"/>
+  <env name="GAZEBO_PLUGIN_PATH" value="$(find imav_gazebo)/lib:${GAZEBO_PLUGIN_PATH}"/>
+
+  <!-- Start Gazebo -->
+  <node name="gazebo" pkg="gazebo_ros" type="gazebo" args="$(find imav_gazebo)/worlds/imav_world.world --verbose"/>
+</launch>

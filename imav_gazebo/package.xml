@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>ros_imav_2023</name>
+  <name>imav_gazebo</name>
   <version>0.0.1</version>
-  <description>ROS Noetic package for imav_2023</description>
+  <description>IMAV 2023 Gazebo Package</description>
   <maintainer email="shriram@todo.todo">shriram</maintainer>
   <license>TODO</license>
 

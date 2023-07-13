@@ -148,7 +148,10 @@
         </axis>
       </joint>
       
-      <plugin name="rotating_plugin" filename="librotation_controller.so"/>     
+      <plugin name="rotating_plugin" filename="libRotation_controller.so">
+      <maxForce>1000</maxForce>
+      <vel>0.2</vel>  
+      </plugin>   
     </model>
     
     
