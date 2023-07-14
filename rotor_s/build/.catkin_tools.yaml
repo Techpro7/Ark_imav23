@@ -1,0 +1,6 @@
+devel_space: /home/pranjal/rotor_s/devel
+install: false
+install_space: /home/pranjal/rotor_s/install
+profile: default
+source_space: /home/pranjal/rotor_s/src
+workspace: /home/pranjal/rotor_s

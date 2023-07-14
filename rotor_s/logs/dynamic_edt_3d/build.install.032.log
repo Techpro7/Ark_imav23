@@ -1,0 +1,24 @@
+[ 20%] Built target dynamicedt3d-static
+[ 40%] Built target dynamicedt3d
+[ 60%] Built target exampleEDTOctomapStamped
+[ 80%] Built target exampleEDTOctomap
+[100%] Built target exampleEDT3D
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Up-to-date: /home/pranjal/rotor_s/devel/include/dynamicEDT3D/bucketedqueue.h
+-- Up-to-date: /home/pranjal/rotor_s/devel/include/dynamicEDT3D/bucketedqueue.hxx
+-- Up-to-date: /home/pranjal/rotor_s/devel/include/dynamicEDT3D/dynamicEDT3D.h
+-- Up-to-date: /home/pranjal/rotor_s/devel/include/dynamicEDT3D/dynamicEDTOctomap.h
+-- Up-to-date: /home/pranjal/rotor_s/devel/include/dynamicEDT3D/dynamicEDTOctomap.hxx
+-- Up-to-date: /home/pranjal/rotor_s/devel/include/dynamicEDT3D/point.h
+-- Up-to-date: /home/pranjal/rotor_s/devel/share/dynamic_edt_3d/package.xml
+-- Up-to-date: /home/pranjal/rotor_s/devel/share/ament_index/resource_index/packages/dynamicEDT3D
+-- Up-to-date: /home/pranjal/rotor_s/devel/share/dynamicEDT3D/dynamicEDT3DConfig.cmake
+-- Up-to-date: /home/pranjal/rotor_s/devel/share/dynamicEDT3D/dynamicEDT3DConfig-version.cmake
+-- Up-to-date: /home/pranjal/rotor_s/devel/lib/pkgconfig/dynamicEDT3D.pc
+-- Up-to-date: /home/pranjal/rotor_s/devel/lib/libdynamicedt3d.so.1.9.8
+-- Up-to-date: /home/pranjal/rotor_s/devel/lib/libdynamicedt3d.so.1.9
+-- Up-to-date: /home/pranjal/rotor_s/devel/lib/libdynamicedt3d.so
+-- Up-to-date: /home/pranjal/rotor_s/devel/lib/libdynamicedt3d.a
+-- Up-to-date: /home/pranjal/rotor_s/devel/share/dynamicEDT3D/dynamicEDT3DTargets.cmake
+-- Up-to-date: /home/pranjal/rotor_s/devel/share/dynamicEDT3D/dynamicEDT3DTargets-release.cmake

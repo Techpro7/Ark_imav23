@@ -1,0 +1,10 @@
+prefix=/home/pranjal/rotor_s/devel
+libdir=/home/pranjal/rotor_s/devel/lib
+includedir=/home/pranjal/rotor_s/devel/include
+
+Name: octomap
+Description: octomap
+Requires: 
+Version: 1.9.8
+Libs: -L${libdir}  -loctomap -loctomath
+Cflags: -I${includedir} 

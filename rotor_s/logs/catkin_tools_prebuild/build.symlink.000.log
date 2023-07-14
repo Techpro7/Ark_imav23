@@ -1,0 +1,12 @@
+Symlinking /home/pranjal/rotor_s/devel/./setup.zsh
+Symlinking /home/pranjal/rotor_s/devel/./local_setup.sh
+Symlinking /home/pranjal/rotor_s/devel/./cmake.lock
+Symlinking /home/pranjal/rotor_s/devel/./env.sh
+Symlinking /home/pranjal/rotor_s/devel/./local_setup.bash
+Symlinking /home/pranjal/rotor_s/devel/./_setup_util.py
+Symlinking /home/pranjal/rotor_s/devel/./local_setup.zsh
+Symlinking /home/pranjal/rotor_s/devel/./setup.sh
+Symlinking /home/pranjal/rotor_s/devel/./setup.bash
+Symlinking /home/pranjal/rotor_s/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/pranjal/rotor_s/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/pranjal/rotor_s/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
