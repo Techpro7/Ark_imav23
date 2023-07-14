@@ -44,6 +44,8 @@
       </spot>
     </light>
     
+    <plugin name="ros_interface_plugin" filename="librotors_gazebo_ros_interface_plugin.so"/>
+
     <model name='ground_plane'>
       <static>1</static>
       <link name='link'>
