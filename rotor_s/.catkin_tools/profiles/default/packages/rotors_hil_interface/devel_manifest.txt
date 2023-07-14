@@ -1,5 +1,0 @@
-rotors_simulator/rotors_hil_interface
-/home/pranjal/rotor_s/devel/.private/rotors_hil_interface/cmake.lock /home/pranjal/rotor_s/devel/./cmake.lock
-/home/pranjal/rotor_s/devel/.private/rotors_hil_interface/lib/pkgconfig/rotors_hil_interface.pc /home/pranjal/rotor_s/devel/lib/pkgconfig/rotors_hil_interface.pc
-/home/pranjal/rotor_s/devel/.private/rotors_hil_interface/share/rotors_hil_interface/cmake/rotors_hil_interfaceConfig-version.cmake /home/pranjal/rotor_s/devel/share/rotors_hil_interface/cmake/rotors_hil_interfaceConfig-version.cmake
-/home/pranjal/rotor_s/devel/.private/rotors_hil_interface/share/rotors_hil_interface/cmake/rotors_hil_interfaceConfig.cmake /home/pranjal/rotor_s/devel/share/rotors_hil_interface/cmake/rotors_hil_interfaceConfig.cmake

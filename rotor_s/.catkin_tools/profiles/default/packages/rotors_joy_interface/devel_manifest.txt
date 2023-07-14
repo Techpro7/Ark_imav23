@@ -1,6 +1,0 @@
-rotors_simulator/rotors_joy_interface
-/home/pranjal/rotor_s/devel/.private/rotors_joy_interface/cmake.lock /home/pranjal/rotor_s/devel/./cmake.lock
-/home/pranjal/rotor_s/devel/.private/rotors_joy_interface/lib/rotors_joy_interface/rotors_joy_interface /home/pranjal/rotor_s/devel/lib/rotors_joy_interface/rotors_joy_interface
-/home/pranjal/rotor_s/devel/.private/rotors_joy_interface/lib/pkgconfig/rotors_joy_interface.pc /home/pranjal/rotor_s/devel/lib/pkgconfig/rotors_joy_interface.pc
-/home/pranjal/rotor_s/devel/.private/rotors_joy_interface/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig-version.cmake /home/pranjal/rotor_s/devel/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig-version.cmake
-/home/pranjal/rotor_s/devel/.private/rotors_joy_interface/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig.cmake /home/pranjal/rotor_s/devel/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig.cmake

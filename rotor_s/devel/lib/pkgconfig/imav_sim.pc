@@ -1,1 +1,0 @@
-/home/pranjal/rotor_s/devel/.private/imav_sim/lib/pkgconfig/imav_sim.pc

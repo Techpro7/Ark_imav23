@@ -1,2 +1,0 @@
-mav_comm/mav_comm
-/home/pranjal/rotor_s/devel/.private/mav_comm/cmake.lock /home/pranjal/rotor_s/devel/./cmake.lock

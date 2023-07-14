@@ -1,1 +1,0 @@
-/home/pranjal/rotor_s/devel/.private/imav_gazebo/lib/pkgconfig/imav_gazebo.pc
