@@ -5,4 +5,11 @@
 
   <!-- Start Gazebo -->
   <node name="gazebo" pkg="gazebo_ros" type="gazebo" args="$(find imav_gazebo)/worlds/imav_world.world --verbose"/>
+
+  <include file="$(find rotors_gazebo)/launch/mav_hovering_example_with_vi_sensor.launch">
+    <arg name="mav_name" value="hummingbird" />
+      <!-- <arg name="x" value="-1.0" />
+      <arg name="y" value="-1.0" />
+      <arg name="z" value="0.1" /> -->
+  </include>
 </launch>
