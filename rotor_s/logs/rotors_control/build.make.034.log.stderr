@@ -1,0 +1,17 @@
+[01m[K/home/pranjal/rotor_s/src/rotors_simulator/rotors_control/src/nodes/pid_controller2.cpp:[m[K In function ‘[01m[KEigen::MatrixXd InputToRotorSpeed(Eigen::Vector4d)[m[K’:
+[01m[K/home/pranjal/rotor_s/src/rotors_simulator/rotors_control/src/nodes/pid_controller2.cpp:109:52:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[KEigen::DenseCoeffsBase<Eigen::Matrix<double, -1, -1>, 1>::Scalar {aka double}[int][m[K’ for array subscript
+  109 |   std::cout<<"inp_r "<<mav.inp_to_rotor_matrix[i][0[01;31m[K][m[K<<"\n";
+      |                                                    [01;31m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:366[m[K,
+                 from [01m[K/home/pranjal/rotor_s/src/rotors_simulator/rotors_control/src/nodes/pid_controller2.cpp:6[m[K:
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h: In instantiation of ‘[01m[KEigen::DenseCoeffsBase<Derived, 1>::Scalar& Eigen::DenseCoeffsBase<Derived, 1>::operator[](Eigen::Index) [with Derived = Eigen::Matrix<double, -1, -1>; Eigen::DenseCoeffsBase<Derived, 1>::Scalar = double; Eigen::Index = long int][m[K’:
+[01m[K/home/pranjal/rotor_s/src/rotors_simulator/rotors_control/src/nodes/pid_controller2.cpp:109:49:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:406:36:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: THE_BRACKET_OPERATOR_IS_ONLY_FOR_VECTORS__USE_THE_PARENTHESIS_OPERATOR_INSTEAD
+  406 |       EIGEN_STATIC_ASSERT(Derived::[01;31m[KIsVectorAtCompileTime[m[K,
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+   33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+      |                                                      [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/pid_custom_node.dir/build.make:63: CMakeFiles/pid_custom_node.dir/src/nodes/pid_controller2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:904: CMakeFiles/pid_custom_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

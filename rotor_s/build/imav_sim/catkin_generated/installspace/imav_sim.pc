@@ -1,0 +1,8 @@
+prefix=/home/pranjal/rotor_s/install
+
+Name: imav_sim
+Description: Description of imav_sim
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

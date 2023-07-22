@@ -1,0 +1,15 @@
+[01m[K/home/pranjal/rotor_s/src/rotors_simulator/rotors_control/src/nodes/pid_controller2.cpp:[m[K In function ‘[01m[Kvoid InitialiseRotorMatrix()[m[K’:
+[01m[K/home/pranjal/rotor_s/src/rotors_simulator/rotors_control/src/nodes/pid_controller2.cpp:91:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmath[m[K’ was not declared in this scope; did you mean ‘[01m[Kboost::math[m[K’?
+   91 |   r_inp(3,i) =  -1*([01;31m[Kmath[m[K.pow(-1,i)*r[i].direction)*(r[i].moment_constant);
+      |                     [01;31m[K^~~~[m[K
+      |                     [32m[Kboost::math[m[K
+In file included from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/pranjal/rotor_s/src/rotors_simulator/rotors_control/src/nodes/pid_controller2.cpp:9[m[K:
+[01m[K/usr/include/boost/math/tools/config.hpp:336:28:[m[K [01;36m[Knote: [m[K‘[01m[Kboost::math[m[K’ declared here
+  336 | namespace boost{ namespace [01;36m[Kmath[m[K{
+      |                            [01;36m[K^~~~[m[K
+make[2]: *** [CMakeFiles/pid_custom_node.dir/build.make:63: CMakeFiles/pid_custom_node.dir/src/nodes/pid_controller2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:904: CMakeFiles/pid_custom_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

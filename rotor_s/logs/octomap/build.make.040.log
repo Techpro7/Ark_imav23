@@ -1,0 +1,27 @@
+[ 10%] Built target octomath
+[ 10%] Built target octomath-static
+[ 37%] Built target octomap-static
+[ 37%] Built target octomap
+[ 40%] Built target graph2tree
+[ 43%] Built target intersection_example
+[ 45%] Built target log2graph
+[ 51%] Built target simple_example
+[ 51%] Built target octree2pointcloud
+[ 54%] Built target binvox2bt
+[ 56%] Built target bt2vrml
+[ 59%] Built target edit_octree
+[ 62%] Built target normals_example
+[ 64%] Built target test_iterators
+[ 67%] Built target convert_octree
+[ 70%] Built target eval_octree_accuracy
+[ 72%] Built target test_raycasting
+[ 75%] Built target compare_octrees
+[ 78%] Built target test_io
+[ 81%] Built target test_scans
+[ 86%] Built target test_color_tree
+[ 86%] Built target test_pruning
+[ 89%] Built target test_changedkeys
+[ 91%] Built target test_bbx
+[ 94%] Built target color_tree_histogram
+[ 97%] Built target test_mapcollection
+[100%] Built target unit_tests
