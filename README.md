@@ -7,11 +7,11 @@ This brach contains code for Perception Tasks:
 - [ ] SLAM
 
 Here's the progress:
-| [<img src="https://github.com/Techpro7/Ark_imav23/assets/86613790/89fd0229-e347-4cdf-97fc-96447dfa4798"/>](https://www.youtube.com/embed/b6T7o22q-kY) | 
+| [](https://www.youtube.com/embed/b6T7o22q-kY) | 
 |:--:| 
 | *Lane Tracking* |
 
-| [<img src="https://github.com/Techpro7/Ark_imav23/assets/86613790/89fd0229-e347-4cdf-97fc-96447dfa4798"/>](https://www.youtube.com/embed/1KxsDlQUzjg) | 
+| [](https://www.youtube.com/embed/1KxsDlQUzjg) | 
 |:--:| 
 | *QR Detection* |
 
