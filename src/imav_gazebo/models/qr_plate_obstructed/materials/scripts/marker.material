@@ -1,0 +1,14 @@
+material Marker
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture qr_obstructed.png
+            }
+        }
+    }
+}
