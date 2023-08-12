@@ -7,7 +7,7 @@ material Marker
         {
             texture_unit
             {
-                texture ArUco_id_200.png
+                texture ArUco_id_300.png
             }
         }
     }

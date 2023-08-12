@@ -7,7 +7,7 @@ material Marker
         {
             texture_unit
             {
-                texture qr_moving_platform.png
+                texture ArUco_id_500.png
             }
         }
     }
