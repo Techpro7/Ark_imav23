@@ -7,13 +7,9 @@ This brach contains code for Perception Tasks:
 - [ ] SLAM
 
 Here's the progress:
-| [](https://www.youtube.com/embed/b6T7o22q-kY) | 
-|:--:| 
-| *Lane Tracking* |
-
-| [](https://www.youtube.com/embed/1KxsDlQUzjg) | 
-|:--:| 
-| *QR Detection* |
+| [![Watch the video](https://img.youtube.com/vi/b6T7o22q-kY/hqdefault.jpg)](https://www.youtube.com/embed/b6T7o22q-kY) | [![Watch the video](https://img.youtube.com/vi/1KxsDlQUzjg/hqdefault.jpg)](https://www.youtube.com/embed/1KxsDlQUzjg) |
+|:--:|:--:| 
+| *Lane Tracking* | *QR Detection* |
 
 ## Pre Requisites
 Add `rotorS` and `mav comm` repositories in the src.
@@ -22,7 +18,7 @@ git clone https://github.com/ethz-asl/rotors_simulator.git
 git clone https://github.com/ethz-asl/mav_comm.git
 ```
 
-Install zbar
+Install `zbar`(for QR code, not required for Aruco)
 ```bash
 sudo apt-get install libzbar0
 ```
